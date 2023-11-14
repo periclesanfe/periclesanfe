@@ -4,6 +4,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=periclesanfe&label=Profile%20Views&color=ee00ff&style=plastic" alt="periclesanfe" /> </p>
 
+
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=periclesanfe" alt="periclesanfe" /></a> </p>
 
 - 🔭 I’m currently working on **assistive technologies, such as educational games and communication platforms.**
