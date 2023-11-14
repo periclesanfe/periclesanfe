@@ -1,6 +1,6 @@
-[![MasterHead](https://i.pinimg.com/originals/0d/05/20/0d05201572964220c7c3b6ceab245bd8.gif)](https://rishavchanda.io)
+ [![MasterHead](https://i.pinimg.com/originals/0d/05/20/0d05201572964220c7c3b6ceab245bd8.gif)](https://rishavchanda.io)
 <h1 align="center">Hi 👋, I'm Péricles</h1>
-<h3 align="center">I am Brazilian, resident in Maceió - AL, Bachelor's student in Sistemas de Informação at the Instituto Federal de Educação, Ciência e Tecnologia - IFAL, researcher in the area of ​​assistive technologies more focused on autism spectrum disorder ASD by AMA, I am 20 years old.</h3>
+<h3 align="center">I am Brazilian, resident in Maceió - AL, Bachelor's student in Sistemas de Informação at the Instituto Federal de Educação, Ciência e Tecnologia de Alagoas - IFAL, researcher in the area of ​​assistive technologies more focused on autism spectrum disorder ASD by AMA, I am 20 years old.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=periclesanfe&label=Profile%20Views&color=ee00ff&style=plastic" alt="periclesanfe" /> </p>
 
