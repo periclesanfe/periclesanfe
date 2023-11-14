@@ -1,4 +1,4 @@
-[![MasterHead](https://c4.wallpaperflare.com/wallpaper/469/3/748/pokemon-ghosts-gengar-haunter-ghastly-wallpaper-preview.jpg)](https://rishavchanda.io)
+[![MasterHead](https://i.pinimg.com/originals/0d/05/20/0d05201572964220c7c3b6ceab245bd8.gif)](https://rishavchanda.io)
 <h1 align="center">Hi 👋, I'm Péricles</h1>
 <h3 align="center">I am Brazilian, resident in Maceió - AL, Bachelor's student in Sistemas de Informação at the Instituto Federal de Educação, Ciência e Tecnologia - IFAL, researcher in the area of ​​assistive technologies more focused on autism spectrum disorder ASD by AMA, I am 20 years old.</h3>
 
