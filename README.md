@@ -80,7 +80,7 @@
           <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> 
         </a>
         <a href="https://defold.com/" target="_blank" rel="noreferrer">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Defold-logo.png" alt="defold" width="40" height="40"/>
+          <img src="https://defold.com/images/logo/defold/logo/logo-ver-outline-white-64.png" alt="defold" width="40" height="40"/>
         </a>
       </p>
     </td>
