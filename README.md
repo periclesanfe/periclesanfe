@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Péricles</h1>
 <h3 align="center">
   I am Brazilian, resident in Maceió - AL, Bachelor's student in Sistemas de Informação at the Instituto Federal de Educação, Ciência e Tecnologia de Alagoas - IFAL, 
-  researcher in the area of ​​assistive technologies. I am 21 years old.
+  researcher in the area of ​​assistive technologies. I am 22 years old.
 </h3>
 
 <p align="center">
