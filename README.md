@@ -134,7 +134,6 @@
 <h3 align="center">🔍 Areas of Interest</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Blockchain-Technology-blue?style=for-the-badge&logo=blockchain-dot-com" alt="Blockchain" />
-  <img src="https://img.shields.io/badge/Artificial%20Intelligence-Research-red?style=for-the-badge&logo=ai" alt="AI" />
   <img src="https://img.shields.io/badge/Economics-Analysis-green?style=for-the-badge&logo=money" alt="Economics" />
 </p>
 <p align="center">
