@@ -82,7 +82,7 @@
         <a href="https://defold.com/" target="_blank" rel="noreferrer">
           <img src="https://defold.com/images/logo/defold/logo/logo-ver-outline-white-64.png" alt="defold" width="40" height="40"/>
         </a>
-        <a  href="[https://apex.oracle.com/en/" target="_blank" rel="noreferrer">
+        <a  href="https://apex.oracle.com/en/" target="_blank" rel="noreferrer">
           <img src="https://www.oracle.com/a/ocom/img/dc/em/oracle-apex.png" alt="APEX" width="40" height="40"/>
         </a>
       </p>
