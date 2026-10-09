@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 258" width="360" height="258" role="img" aria-label="Escavador de Preços: Price tracker that scrapes dozens of Brazilian stores, matches the same product across retailers and alerts only on genuine price drops. Stack: Django, Playwright, React, Web Push.">
+<title>Escavador de Preços: Price tracker that scrapes dozens of Brazilian stores, matches the same product across retailers and alerts only on genuine price drops. Stack: Django, Playwright, React, Web Push.</title>
+<style>
+  svg { --fg: #f0f6fc; --text: #d1d7e0; --muted: #9198a1; --line: #3d444d; --surface: #151b23; --accent: #a594ff; --bg: #0d1117; }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+  .fg { fill: var(--fg); } .tx { fill: var(--text); } .mu { fill: var(--muted); } .ac { fill: var(--accent); }
+  .frame { fill: none; stroke: var(--line); }
+  text { dominant-baseline: central; }
+  .card { fill: var(--surface); stroke: var(--line); stroke-width: 1; }
+  .tag { font-size: 12px; letter-spacing: .6px; fill: var(--accent); font-weight: 600; }
+  .meta { font-size: 12px; letter-spacing: .6px; fill: var(--muted); }
+  .title { font-size: 25px; font-weight: 650; letter-spacing: -.4px; fill: var(--fg); }
+  .desc { font-size: 16px; fill: var(--muted); }
+  .chip { fill: var(--bg); stroke: var(--line); stroke-width: 1; }
+  .chipt { font-size: 12.5px; fill: var(--text); }
+  .go { fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .aline { fill: none; stroke: var(--line); stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; }
+  .aline-f { fill: var(--line); }
+  .aacc { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+  .adot { fill: var(--accent); }
+  .halo2 { fill: none; stroke: var(--accent); stroke-width: 1.2; opacity: 0; }
+  .opt { fill: var(--bg); stroke: var(--line); stroke-width: 1; }
+  .opt-on { fill: var(--accent); fill-opacity: .14; stroke: var(--accent); stroke-width: 1.25; }
+  .bub { fill: var(--bg); stroke: var(--line); stroke-width: 1; }
+  .chk { fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .tg { fill: var(--bg); stroke: var(--line); stroke-width: 1.25; stroke-linejoin: round; }
+  .tg-on { fill: var(--accent); fill-opacity: .18; stroke: var(--accent); stroke-width: 1.4; stroke-linejoin: round; }
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes fade { from { opacity: 0; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+    .fade { animation: fade .8s ease-out both; }
+    .rise { animation: rise .9s cubic-bezier(.16, 1, .3, 1) both; }
+@keyframes drop { 0%, 30% { stroke-dashoffset: 100; } 55%, 100% { stroke-dashoffset: 0; } }@keyframes ping { 0%, 55% { opacity: 0; transform: scale(1); } 60% { opacity: .8; } 85%, 100% { opacity: 0; transform: scale(3); } }.drop { stroke-dasharray: 100 100; animation: drop 8s ease-in-out infinite; }.halo2 { transform-box: fill-box; transform-origin: center; animation: ping 8s ease-out infinite; }
+  }
+</style>
+<rect class="card" x=".5" y=".5" width="359" height="257" rx="12"/>
+<text class="mono tag" x="20" y="30">PERSONAL</text>
+<text class="mono meta" x="86.4" y="30">· PWA</text>
+<text class="sans title" x="20" y="88">Escavador de Preços</text>
+<text class="sans desc" x="20" y="122">Price tracker that scrapes dozens of</text>
+<text class="sans desc" x="20" y="145">Brazilian stores, matches the same</text>
+<text class="sans desc" x="20" y="168">product across retailers and alerts</text>
+<text class="sans desc" x="20" y="191">only on genuine price drops.</text>
+<rect class="chip" x="20.0" y="212" width="63.0" height="28" rx="6"/><text class="mono chipt" x="51.5" y="226" text-anchor="middle">Django</text>
+<rect class="chip" x="89.0" y="212" width="93.0" height="28" rx="6"/><text class="mono chipt" x="135.5" y="226" text-anchor="middle">Playwright</text>
+<rect class="chip" x="188.0" y="212" width="55.5" height="28" rx="6"/><text class="mono chipt" x="215.8" y="226" text-anchor="middle">React</text>
+<rect class="chip" x="249.5" y="212" width="78.0" height="28" rx="6"/><text class="mono chipt" x="288.5" y="226" text-anchor="middle">Web Push</text>
+<g transform="translate(240 14)"><path class="aline" d="M0 14 H16 V10 H36 V15 H56 V11 H72"/><path class="aacc drop" pathLength="100" d="M72 11 V34 H100"/><circle class="halo2" cx="100" cy="34" r="3"/><circle class="adot" cx="100" cy="34" r="3"/><path class="aline" d="M0 44 H100" stroke-dasharray="2 4"/></g>
+</svg>

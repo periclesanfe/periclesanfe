@@ -1,99 +1,96 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <img alt="Péricles Feitoza, full-stack developer in Maceió, Brazil. Software built end to end, in production, from the interface to the infrastructure." src="./assets/header-light.svg" width="100%">
+</picture>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:00D2FF,100:FF6B9D&height=220&section=header&text=Péricles%20Feitoza&fontSize=48&fontColor=ffffff&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Researcher&descSize=18&descAlignY=55&animation=fadeIn" alt="header"/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&repeat=true&width=450&height=45&lines=Full-Stack+Developer+%F0%9F%92%BB;Game+Developer+%F0%9F%8E%AE;Assistive+Tech+Researcher+%F0%9F%94%AC" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<a href="https://linkedin.com/in/periclesanfe"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:periclesanfe@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://orcid.org/0009-0005-3252-3126"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/></a>
-
-</div>
-
----
-
-## 🧑‍💻 About Me
-
-```yaml
-name: Péricles Feitoza
-age: 23
-location: Maceió - AL, Brazil 🇧🇷
-education: B.Sc. in Information Systems @ IFAL
-```
-
-- 🎓 Bachelor's student in **Information Systems** at **IFAL**
-- 🔬 Researcher in **assistive technologies**
-- 🚀 Experience with **multi-repo architectures** (API + Web + Mobile)
-- 🔭 Working across **healthcare**, **foodtech** & **edtech** domains
-
----
-
-## 🛠️ Tech Stack
-
-### Languages
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-</p>
-
-### Backend
-<p align="center">
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white"/>
-</p>
-
-### Frontend & Mobile
-<p align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-</p>
-
-### Databases
-<p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Oracle_DB-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-</p>
-
-### DevOps & Testing
-<p align="center">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"/>
-</p>
-
----
-
-## 🔍 Areas of Interest
-
-<div align="center">
 <p>
-  <img src="https://img.shields.io/badge/🏥_Healthcare_Tech-6C63FF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/♿_Assistive_Tech-4CAF50?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🎮_Game_Dev-FF6B9D?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/₿_Blockchain-F7931A?style=for-the-badge"/>
+<a href="https://www.linkedin.com/in/periclesanfe/" title="LinkedIn"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-linkedin-dark.svg"><img alt="LinkedIn" src="./assets/link-linkedin-light.svg" width="36"></picture></a>
+<a href="mailto:periclesanfe@gmail.com" title="Email"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-email-dark.svg"><img alt="Email" src="./assets/link-email-light.svg" width="36"></picture></a>
+<a href="https://orcid.org/0009-0005-3252-3126" title="ORCID"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-orcid-dark.svg"><img alt="ORCID" src="./assets/link-orcid-light.svg" width="36"></picture></a>
 </p>
-</div>
 
----
+I build products end to end: the client app, the API, the database and the infrastructure it ships on. My own product, [MeuHub](https://meuhub.app.br), is live; I designed and programmed assistive games for autistic children and tested them with real users; and I build the platform that tracks the State of Alagoas's public investment.
 
-<div align="center">
+### Featured work
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:00D2FF,100:FF6B9D&height=120&section=footer" alt="footer"/>
+<p>
+<a href="https://meuhub.app.br"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-meuhub-dark.svg"><img alt="MeuHub, my own product, live at meuhub.app.br: link-in-bio storefront for Instagram and WhatsApp sellers. Customers pick size or flavor and the order lands in the seller's WhatsApp, ready-made. React, Express, PostgreSQL, Docker." src="./assets/card-meuhub-light.svg" width="49%"></picture></a>
+<a href="https://github.com/periclesanfe/AUTMONEY"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-games-dark.svg"><img alt="Assistive games: TEAGRAM (early math), MEMOAUT (memory) and AUTMoney (money skills), tested with autistic users and therapists; in-game telemetry feeds a KPI dashboard. React Native, Expo, Lua, Defold. Links to the AUTMONEY repository." src="./assets/card-games-light.svg" width="49%"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-delivery-dark.svg"><img alt="Delivery platform, end to end: web app, API, Electron print terminal, WhatsApp AI agent, payment and iFood integrations. I built nearly all of it in about 8 months and left it tested and sellable. Next.js, Electron, RabbitMQ, Oracle." src="./assets/card-delivery-light.svg" width="49%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-escavador-dark.svg"><img alt="Escavador de Preços, personal PWA: price tracker that scrapes dozens of Brazilian stores, matches the same product across retailers and alerts only on genuine price drops. Django, Playwright, React, Web Push." src="./assets/card-escavador-light.svg" width="49%"></picture>
+</p>
 
-</div>
+<details>
+<summary><b>More on these projects</b></summary>
+<br>
+
+**[MeuHub](https://meuhub.app.br)** · built solo over ~4 months. A link-in-bio page for people who sell on Instagram and WhatsApp: a storefront where customers pick size, flavor or variation and the order arrives ready-made in the seller's WhatsApp. Cookie-less click stats with map analytics, themes, a QR code for every profile, a genuinely free plan plus subscription billing, and an MCP server that lets AI assistants manage a page. React, Express, PostgreSQL, Docker, zero-downtime blue-green deploys.
+
+**Assistive games** · CNPq research fellowship, IFAL × AMA-AL autism association, 2023–2026.
+- **TEAGRAM**: Tangram-based game that teaches early math skills to autistic children, with structured TEACCH-style tasks and user-centered design. React Native/Expo.
+- **MEMOAUT**: memory game, tested with 9 autistic participants (support levels 2–3) with educators mediating; 94.1% favorable evaluations.
+- **[AUTMoney](https://github.com/periclesanfe/AUTMONEY)**: money-skills serious game, 10 shops and 40 levels, with in-game telemetry and a KPI dashboard. Tested with 7 participants and 3 therapists: 91% of levels completed, 90.5% aggregate accuracy. Defold/Lua.
+- How they were built: requirements gathered with users who can't always verbalize their needs, telemetry instrumented from day one, design decisions driven by the collected data.
+
+<sub>Papers: <a href="https://doi.org/10.5753/sbie.2025.12919">SBIE 2025</a> · <a href="https://doi.org/10.5753/sbgames.2025.10283">SBGames 2025</a>. TEAGRAM was also my undergraduate thesis, alongside a systematic review of 26 studies on evaluating educational games for autism.</sub>
+
+**Delivery platform** · F2J Soluções, 2025–2026. React web app, Next.js API, Electron desktop printing terminal, Oracle database, RabbitMQ messaging, Docker on Oracle Cloud (OCI), automated tests, payment-gateway and iFood integrations, and an AI customer-service agent on WhatsApp (WAHA API). I built nearly all of it, with help from colleagues, over ~8 months and left a working, tested, sellable version.
+
+**Escavador de Preços** · personal. A price-tracker PWA that scrapes dozens of Brazilian online stores, matches the same product across retailers and alerts only on genuine price drops. Django, Playwright, React, web push.
+
+</details>
+
+### Public projects
+
+<p>
+<a href="https://github.com/periclesanfe/material_estudos_ifal"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-material_estudos_ifal-dark.svg"><img alt="material_estudos_ifal: study platform for IFAL's Information Systems degree, with AI-generated quizzes (Gemini). TypeScript, 29 stars, live site." src="./assets/repo-material_estudos_ifal-light.svg" width="49%"></picture></a>
+<a href="https://github.com/periclesanfe/Pulmoseg"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-pulmoseg-dark.svg"><img alt="Pulmoseg: lung-nodule segmentation on CT scans, classical computer vision vs. the U-Net family (PyTorch)." src="./assets/repo-pulmoseg-light.svg" width="49%"></picture></a>
+<a href="https://github.com/periclesanfe/AUTMONEY"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-autmoney-dark.svg"><img alt="AUTMONEY: serious game on money skills with 10 shops, 40 levels and in-game telemetry (Lua, Defold)." src="./assets/repo-autmoney-light.svg" width="49%"></picture></a>
+<a href="https://github.com/periclesanfe/test_scan_xlsx"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-test_scan_xlsx-dark.svg"><img alt="test_scan_xlsx: Flask app that builds printable exams and reads scanned answer sheets with OpenCV, with manual correction as a fallback." src="./assets/repo-test_scan_xlsx-light.svg" width="49%"></picture></a>
+</p>
+
+<samp>try it live: <a href="https://periclesanfe.github.io/material_estudos_ifal/">material_estudos_ifal ↗</a></samp>
+
+### Stack
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <img alt="Stack by layer. App: React, Next.js, TypeScript, Tailwind CSS, React Native, Expo, Electron, Defold. API: Node.js, NestJS, Express, Python, Django, FastAPI, Flask, Laravel, MCP. Data: PostgreSQL, Oracle, MongoDB, Redis, Prisma, Drizzle, RabbitMQ. Ops: Docker, Kubernetes, Helm, GitHub Actions, Nginx, Prometheus, Grafana, Loki, Vitest, Jest, Playwright, pytest." src="./assets/stack-light.svg" width="100%">
+</picture>
+
+<details>
+<summary><b>Full stack, by layer</b></summary>
+<br>
+
+| Layer | Tools |
+| --- | --- |
+| Languages | TypeScript, JavaScript, Python, SQL, PL/SQL, Bash, Java, Lua, PHP |
+| Frontend | React, Next.js, Vite, TanStack Query & Router, Tailwind CSS, shadcn/ui, Recharts, Leaflet |
+| Mobile, desktop, games | React Native, Expo, NativeWind, Electron, Defold |
+| Backend | Node.js, NestJS, Express, Django, FastAPI, Flask, Laravel, Zod |
+| Data | PostgreSQL, Oracle, MongoDB, Redis, SQLite, Prisma, Drizzle, RabbitMQ |
+| Identity | Keycloak, OpenID Connect / OAuth 2.0, JWT |
+| Platform | Docker, Kubernetes (k3s), Kustomize, Helm, GitHub Actions, Nginx, Cloudflare, Oracle Cloud |
+| Observability | Prometheus, Grafana, Loki |
+| Testing | Vitest, Jest, Playwright, Testing Library, Supertest, pytest |
+| AI / ML | LLM APIs (OpenAI, Groq, Gemini, DeepSeek), a WhatsApp AI agent, MCP, PyTorch, OpenCV |
+
+</details>
+
+<details>
+<summary><b>How I ship</b></summary>
+<br>
+
+- **Declarative Kubernetes deploys**: Kustomize overlays applied from CI, Helm add-ons, SHA-pinned images, so a rollback is one command.
+- **Zero-downtime deploys**: blue-green behind Nginx, with health checks and automatic rollback.
+- **CI gates**: typecheck, unit tests and integration tests against a real PostgreSQL before production.
+- **OIDC single sign-on**: backend-for-frontend (PKCE, server-side tokens, back-channel logout) and Keycloak realms as code.
+- **Self-hosted observability**: Prometheus, Grafana and Loki.
+- **Hardened container images**.
+- **User-validated software**: telemetry from day one and tests with real users.
+
+On the state platform I own the layer underneath the app: Keycloak SSO, a self-hosted k3s cluster with CI/CD, blue-green deploys, and Prometheus, Grafana and Loki monitoring.
+
+</details>
+
+<sub>Information Systems at IFAL (Federal Institute of Alagoas), graduating Dec 2026 · English: EF SET C2 Proficient · every image here is an SVG built by <a href="./scripts/build_assets.py">one script</a>.</sub>

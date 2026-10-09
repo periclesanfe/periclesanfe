@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" role="img" aria-label="orcid">
+<title>orcid</title>
+<style>
+  svg { --fg: #f0f6fc; --text: #d1d7e0; --muted: #9198a1; --line: #3d444d; --surface: #151b23; --accent: #a594ff; --bg: #0d1117; }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+  .fg { fill: var(--fg); } .tx { fill: var(--text); } .mu { fill: var(--muted); } .ac { fill: var(--accent); }
+  .frame { fill: none; stroke: var(--line); }
+  .btn { fill: var(--surface); stroke: var(--line); stroke-width: 1; }
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes fade { from { opacity: 0; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+    .fade { animation: fade .8s ease-out both; }
+    .rise { animation: rise .9s cubic-bezier(.16, 1, .3, 1) both; }
+    .in { animation: rise .9s cubic-bezier(.16, 1, .3, 1) 1.34s both; }
+  }
+</style>
+<!-- ORCID glyph: Simple Icons 16.30.0, CC0 -->
+<g class="in"><rect class="btn" x=".5" y=".5" width="39" height="39" rx="10"/><path class="ac" transform="translate(10.00 10.00) scale(0.8333)" d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></g>
+</svg>

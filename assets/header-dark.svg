@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 362" width="820" height="362" role="img" aria-label="Péricles Feitoza, full-stack developer in Maceió, Brazil. Software built end to end, in production, from the interface to the infrastructure.">
+<title>Péricles Feitoza, full-stack developer in Maceió, Brazil. Software built end to end, in production, from the interface to the infrastructure.</title>
+<style>
+  svg { --fg: #f0f6fc; --text: #d1d7e0; --muted: #9198a1; --line: #3d444d; --surface: #151b23; --accent: #a594ff; --bg: #0d1117; }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+  .fg { fill: var(--fg); } .tx { fill: var(--text); } .mu { fill: var(--muted); } .ac { fill: var(--accent); }
+  .frame { fill: none; stroke: var(--line); }
+  .name { font-size: 112px; font-weight: 700; letter-spacing: -4px; fill: var(--fg); }
+  .meta { font-size: 17px; letter-spacing: 1.5px; fill: var(--muted); }
+  .thesis { font-size: 31px; font-weight: 500; letter-spacing: -.4px; fill: var(--fg); }
+  .thesis.soft { fill: var(--muted); font-weight: 400; }
+  .hair { fill: none; stroke: var(--line); stroke-width: 1.25; }
+  .lead { fill: none; stroke: var(--accent); stroke-width: 3; }
+  @media (max-width: 560px) { .meta { font-size: 25px; letter-spacing: 0; } .thesis { font-size: 36px; } }
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes fade { from { opacity: 0; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+    .fade { animation: fade .8s ease-out both; }
+    .rise { animation: rise .9s cubic-bezier(.16, 1, .3, 1) both; }
+    .up { animation: up 1.2s cubic-bezier(.16, 1, .3, 1) both; }
+    .up.small { animation-name: up-small; animation-duration: 1s; }
+    .slide { animation: slide .9s ease-out both; }
+    .draw { animation: draw 1.4s cubic-bezier(.65, 0, .35, 1) both; }
+    .lead { animation-duration: .8s; }
+    .a1 { animation-delay: .05s; } .a2 { animation-delay: .19s; } .a3 { animation-delay: .55s; }
+    .a4 { animation-delay: .8s; } .a5 { animation-delay: .92s; } .a6 { animation-delay: .95s; } .a7 { animation-delay: 1.07s; }
+    @keyframes up { from { transform: translateY(124px); } }
+    @keyframes up-small { from { transform: translateY(44px); } }
+    @keyframes slide { from { opacity: 0; transform: translateX(-8px); } }
+    @keyframes draw { from { stroke-dashoffset: 1; } }
+  }
+</style>
+<defs>
+  <clipPath id="c1"><rect x="0" y="0" width="820" height="128"/></clipPath>
+  <clipPath id="c2"><rect x="0" y="110" width="820" height="126"/></clipPath>
+  <clipPath id="c3"><rect x="0" y="272" width="820" height="42"/></clipPath>
+  <clipPath id="c4"><rect x="0" y="312" width="820" height="42"/></clipPath>
+</defs>
+<g class="sans" clip-path="url(#c1)"><text class="name up a1" x="-4" y="106">Péricles</text></g>
+<g class="sans" clip-path="url(#c2)"><text class="name up a2" x="-4" y="214">Feitoza<tspan class="ac">.</tspan></text></g>
+<g class="mono meta" text-anchor="end">
+  <text class="slide a4" x="819" y="184">FULL-STACK DEVELOPER</text>
+  <text class="slide a5" x="819" y="214">MACEIÓ, BRAZIL</text>
+</g>
+<path class="hair draw a3" pathLength="1" stroke-dasharray="1" d="M0 254H820"/>
+<path class="lead draw a3" pathLength="1" stroke-dasharray="1" d="M0 254H96"/>
+<g class="sans" clip-path="url(#c3)"><text class="thesis up small a6" x="1" y="304">Software built end to end, in production,</text></g>
+<g class="sans" clip-path="url(#c4)"><text class="thesis soft up small a7" x="1" y="344">from the interface to the infrastructure.</text></g>
+</svg>

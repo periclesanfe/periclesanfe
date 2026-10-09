@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 258" width="360" height="258" role="img" aria-label="Delivery platform: Web app, API, Electron print terminal, WhatsApp AI agent, payment and iFood integrations. I built nearly all of it in ~8 months, left tested and sellable. Stack: Next.js, Electron, RabbitMQ, Oracle.">
+<title>Delivery platform: Web app, API, Electron print terminal, WhatsApp AI agent, payment and iFood integrations. I built nearly all of it in ~8 months, left tested and sellable. Stack: Next.js, Electron, RabbitMQ, Oracle.</title>
+<style>
+  svg { --fg: #f0f6fc; --text: #d1d7e0; --muted: #9198a1; --line: #3d444d; --surface: #151b23; --accent: #a594ff; --bg: #0d1117; }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+  .fg { fill: var(--fg); } .tx { fill: var(--text); } .mu { fill: var(--muted); } .ac { fill: var(--accent); }
+  .frame { fill: none; stroke: var(--line); }
+  text { dominant-baseline: central; }
+  .card { fill: var(--surface); stroke: var(--line); stroke-width: 1; }
+  .tag { font-size: 12px; letter-spacing: .6px; fill: var(--accent); font-weight: 600; }
+  .meta { font-size: 12px; letter-spacing: .6px; fill: var(--muted); }
+  .title { font-size: 25px; font-weight: 650; letter-spacing: -.4px; fill: var(--fg); }
+  .desc { font-size: 16px; fill: var(--muted); }
+  .chip { fill: var(--bg); stroke: var(--line); stroke-width: 1; }
+  .chipt { font-size: 12.5px; fill: var(--text); }
+  .go { fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .aline { fill: none; stroke: var(--line); stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; }
+  .aline-f { fill: var(--line); }
+  .aacc { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+  .adot { fill: var(--accent); }
+  .halo2 { fill: none; stroke: var(--accent); stroke-width: 1.2; opacity: 0; }
+  .opt { fill: var(--bg); stroke: var(--line); stroke-width: 1; }
+  .opt-on { fill: var(--accent); fill-opacity: .14; stroke: var(--accent); stroke-width: 1.25; }
+  .bub { fill: var(--bg); stroke: var(--line); stroke-width: 1; }
+  .chk { fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .tg { fill: var(--bg); stroke: var(--line); stroke-width: 1.25; stroke-linejoin: round; }
+  .tg-on { fill: var(--accent); fill-opacity: .18; stroke: var(--accent); stroke-width: 1.4; stroke-linejoin: round; }
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes fade { from { opacity: 0; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+    .fade { animation: fade .8s ease-out both; }
+    .rise { animation: rise .9s cubic-bezier(.16, 1, .3, 1) both; }
+@keyframes paper { 0%, 8% { transform: translateY(-36px); } 45%, 88% { transform: translateY(0); } 96%, 100% { transform: translateY(-36px); } }@keyframes led { 0%, 8%, 45%, 100% { opacity: 1; } 20%, 32% { opacity: .2; } }.paper { animation: paper 8s cubic-bezier(.4, 0, .3, 1) infinite; } .led { animation: led 8s linear infinite; }
+  }
+</style>
+<rect class="card" x=".5" y=".5" width="359" height="257" rx="12"/>
+<text class="mono tag" x="20" y="30">DELIVERY</text>
+<text class="mono meta" x="86.4" y="30">· END TO END</text>
+<text class="sans title" x="20" y="88">Delivery platform</text>
+<text class="sans desc" x="20" y="122">Web app, API, Electron print terminal,</text>
+<text class="sans desc" x="20" y="145">WhatsApp AI agent, payment and iFood</text>
+<text class="sans desc" x="20" y="168">integrations. I built nearly all of it</text>
+<text class="sans desc" x="20" y="191">in ~8 months, left tested and sellable.</text>
+<rect class="chip" x="20.0" y="212" width="70.5" height="28" rx="6"/><text class="mono chipt" x="55.2" y="226" text-anchor="middle">Next.js</text>
+<rect class="chip" x="96.5" y="212" width="78.0" height="28" rx="6"/><text class="mono chipt" x="135.5" y="226" text-anchor="middle">Electron</text>
+<rect class="chip" x="180.5" y="212" width="78.0" height="28" rx="6"/><text class="mono chipt" x="219.5" y="226" text-anchor="middle">RabbitMQ</text>
+<rect class="chip" x="264.5" y="212" width="63.0" height="28" rx="6"/><text class="mono chipt" x="296.0" y="226" text-anchor="middle">Oracle</text>
+<g transform="translate(240 14)"><clipPath id="slot"><rect x="40" y="6" width="60" height="40"/></clipPath><rect class="opt" x="44" y="0" width="56" height="8" rx="3"/><g clip-path="url(#slot)"><g class="paper"><path class="bub" d="M54 6 H92 V40 l-4.75 3 l-4.75 -3 l-4.75 3 l-4.75 -3 l-4.75 3 l-4.75 -3 l-4.75 3 l-4.75 -3 Z"/><rect class="aline-f" x="60" y="14" width="26" height="2.5" rx="1.25"/><rect class="aline-f" x="60" y="21" width="18" height="2.5" rx="1.25"/><rect class="aline-f" x="60" y="28" width="22" height="2.5" rx="1.25"/><path class="chk" d="M80 31 l2.3 2.3 l4.2 -4.6"/></g></g><circle class="adot led" cx="94" cy="4" r="1.6"/></g>
+</svg>
