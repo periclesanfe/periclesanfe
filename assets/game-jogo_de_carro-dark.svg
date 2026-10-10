@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 220" width="820" height="220" role="img" aria-label="Jogo de Carro, a playable pixel-art endless runner: a 2022 IFAL team project rebuilt in 2026 on Python 3.14 and pygame-ce. Download version 2.0.0 for Windows, macOS or Linux.">
+<title>Jogo de Carro, a playable pixel-art endless runner: a 2022 IFAL team project rebuilt in 2026 on Python 3.14 and pygame-ce. Download version 2.0.0 for Windows, macOS or Linux.</title>
+<style>
+  svg { --fg: #f0f6fc; --text: #d1d7e0; --muted: #9198a1; --line: #3d444d; --surface: #151b23; --accent: #a594ff; --bg: #0d1117; }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+  .fg { fill: var(--fg); } .tx { fill: var(--text); } .mu { fill: var(--muted); } .ac { fill: var(--accent); }
+  .frame { fill: none; stroke: var(--line); }
+  .card { fill: var(--surface); stroke: var(--line); stroke-width: 1; }
+  .tag { font-size: 12px; letter-spacing: .6px; fill: var(--accent); font-weight: 600; }
+  .meta { font-size: 12px; letter-spacing: .6px; fill: var(--muted); }
+  .title { font-size: 28px; font-weight: 650; letter-spacing: -.5px; fill: var(--fg); }
+  .desc { font-size: 16px; fill: var(--muted); }
+  .cta { fill: var(--accent); } .cta-t { fill: var(--bg); }
+  .px { image-rendering: pixelated; }
+  .wheel { transform-box: fill-box; }  /* -50% = one frame of the sheet, not half the viewport */
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes fade { from { opacity: 0; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+    .fade { animation: fade .8s ease-out both; }
+    .rise { animation: rise .9s cubic-bezier(.16, 1, .3, 1) both; }
+    .dash { animation: dash .444s linear infinite; }
+    @keyframes dash { to { transform: translateY(40px); } }
+    .wheel { animation: wheel .24s steps(1) infinite; }
+    @keyframes wheel { 50% { transform: translateX(-50%); } }
+    .cone { animation: cone 6s linear infinite; }
+    @keyframes cone { 0% { transform: translateY(-80px); } 50%, 100% { transform: translateY(190px); } }
+    .van { animation: van 6s linear infinite; }
+    @keyframes van { from { transform: translateY(-130px); } to { transform: translateY(200px); } }
+    .truck { animation: truck 6s linear infinite; }
+    @keyframes truck { 0%, 55% { transform: none; } to { transform: translateY(360px); } }
+    .player { animation: player 6s cubic-bezier(.45, 0, .55, 1) infinite; }
+    @keyframes player { 0%, 13% { transform: none; } 20%, 46% { transform: translateX(-81px); } 53%, 100% { transform: none; } }
+  }
+</style>
+<rect class="card" x=".5" y=".5" width="819" height="219" rx="12"/>
+<text class="mono tag" x="24" y="36">PLAYABLE GAME</text><text class="mono meta" x="129.4" y="36">· v2.0.0</text>
+<text class="sans title" x="24" y="80">Jogo de Carro</text>
+<text class="sans desc" x="24" y="116">Pixel-art endless runner from a 2022 IFAL team</text>
+<text class="sans desc" x="24" y="139">project, rebuilt in 2026 on Python 3.14 + pygame-ce.</text>
+<rect class="cta" x="24" y="166" width="142" height="32" rx="16"/>
+<path class="cta-t" d="M42 175 l9 7 l-9 7 Z"/><text class="sans cta-t" x="58" y="187" font-size="15" font-weight="600">Play now</text>
+<text class="mono meta" x="182" y="187">Windows · macOS · Linux</text>
+<defs><clipPath id="road"><rect x="520" y="14" width="276" height="192" rx="10"/></clipPath></defs>
+<g clip-path="url(#road)">
+  <rect x="520" y="14" width="276" height="192" fill="#2a2c35"/>
+  <rect x="520" y="14" width="12" height="192" fill="#3d6b3a"/><rect x="784" y="14" width="12" height="192" fill="#3d6b3a"/>
+  <path d="M535 14V206M781 14V206" stroke="#c9ccd6" stroke-width="2" opacity=".7"/>
+  <g class="dash" fill="#e8b93a" opacity=".85"><rect x="615.5" y="-26" width="4" height="22" rx="1"/><rect x="615.5" y="14" width="4" height="22" rx="1"/><rect x="615.5" y="54" width="4" height="22" rx="1"/><rect x="615.5" y="94" width="4" height="22" rx="1"/><rect x="615.5" y="134" width="4" height="22" rx="1"/><rect x="615.5" y="174" width="4" height="22" rx="1"/><rect x="615.5" y="214" width="4" height="22" rx="1"/><rect x="696.5" y="-26" width="4" height="22" rx="1"/><rect x="696.5" y="14" width="4" height="22" rx="1"/><rect x="696.5" y="54" width="4" height="22" rx="1"/><rect x="696.5" y="94" width="4" height="22" rx="1"/><rect x="696.5" y="134" width="4" height="22" rx="1"/><rect x="696.5" y="174" width="4" height="22" rx="1"/><rect x="696.5" y="214" width="4" height="22" rx="1"/></g>
+  <g class="truck"><svg x="549.0" y="-130" width="56" height="128" viewBox="0 0 28 64"><image class="px wheel" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAABACAYAAABP97SyAAADjElEQVRoge2aPWgUQRTH3w5TSCAWhwQ5QoqIIssR5EiRSkIQsRCVICIoFhYWYpHCQiwsggSRFEGCZSCHhUgIKEFEQhBJccgZwnFsETCEEEMI4YoEDgsx8mZ37+Y2s7n9mLfFZv9wdzOzw/6YN/ef2Y9ngEL53sIhaND2Vs0I0o+SZ6hgv8svAay5WLCDagUuTvGOg6TmGUdgM5cAhifshtokHCx9DQXqHrkKUHgqyj8fDcGNxZzvIJPgGUdgZ3J2w15dRCWqBBihb+aUg0yKZ7TBnKnun+oS5eEHL8Tvt9J4JOj6WAPWavuiLEOT5HFVx1xvAUpzszD59iNUl+ZFPazqW7XAfSl5DKPZdYrD+cetDgMjo02YDt1d7gFkIAs/g8Ui3JxmZLzx+hVABrLEDJrmgHPoX7OTLph8/srKivi1rKpzpEDCs5rnB+Aq4EzuGXSPD0YGeBcLGagKqG6eKQWUuQ0tKMDD+iuIK3fhUJ0fBywPWjfPks6vnEFUnCXbq04zqJtnyjOIS2njz9+2COv0gwtEBrLwg2B50Lp5llUVg2tuEwIKcAhg702o7gF9nnBhbh3L3utPnbyGE0wst9bqlIpBysVVjZXbP+CgfV2IdNkUVJQ8BimXEebG82yPc+Xv0c5u/VjIcbdL1DwGKZchR3NzvUwC6esfUt4PJsHj8oG9vTpsb+9qhVnWmu+xJHgMUi4uVzCaGIGp08GXeD+N7dsXv5WKfYukUhI8Llfy+R67sLUaG2iaF5rlD/NflH2S4HFV553VjdhA6G1d13YSJY+rGj9dvwVJipLHVZ7QqSAepORxpSc0q6MHCXkMUi4GKReXK5kHIyrzIKEYpFxcrmQejKjMg4RikHJxuZJ5MKIyDxKKQcrF5UrmwYjKPEgoBifBg3knV4bKg26OjJzphHksVLzBYhHwjbV4he3CKJ+RrG/Yj+ft1+QgBozv0al4C59fN4PqybKgkX+WBY1MKcuCJw1MOqBcbqDyhN8MUvFMeQbdlA6RvEboQTmVBL0oPELowYaTSuLJk6FRkDwZnWqcpDwZjl/ZPhhT2T6oWWanfNFOKpXehwYely+qm2f55YuG2ZeC9tO1D4bhmXH3QfskrXfi1PtgWN7CSdoHuXxgcXEZ7m1W4de771B+/iTWX2ZoYhrO3b8MVp+/t5PgGW4BI3pn9BpQPbJQpXIlwTO8UApg1GxDHbz/g3QYHdpaZtoAAAAASUVORK5CYII=" width="56" height="64" image-rendering="optimizeSpeed"/></svg></g>
+  <g class="van"><svg x="713.0" y="30" width="52" height="96" viewBox="0 0 26 48"><image class="px wheel" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAwCAYAAABe6Vn9AAADSklEQVRoge2aTWgTQRTH3y5zCD0EEU+SlqCelhBkiR48hOLBQxER8eAhhB5ERAp6kCIepIgUkSJVpEgpgiEHKVKqiIceSunBg4alLGERqSXUUDyISA+hh2LkTTLLupnNfs3ksOR/2ZmXyf525s2bnbyJAh46nsm1IYL2mnUlTHvRHOIFWN75CMvN7VCQT+YOwNR8O0jHZHEUN+Tq5nN4ljnVMdTn4MxuPhDky5gJkLtLy6Ozi/B3adWzUzI5Sg/kzyqt3z5yuTMSIUWBCHuf5nZKNoe4G+JIncufiARh3++o4dtOBkeFhEll02Ak1eOs2MJ7OlcxLBd0XTinoOs2h8iCoDStMy1qAG3WQcsyISuYY1mmPXiEGVAMFHVe80C8DoJgjsYGzjA6iwIasvOTdoPG1AK9jpcf0OtG5WEoQPbFLXo9KF0E3dilINbBibWnwjmGPgap6gdatj3knAZHMzmovH0NcwvvwFxfofWg+t2se3rJ7SGRHE3L04FTnDGEXtpb2qdlBEQVwlLXJ6h3UMxDbOFBL4nkpLreaR0cAsEXEgYtwpiX4kDc3kEIe+m5FyBRHK3rHeTQIcMCW/YaZ3/Bq5lHtGHYPRYL9DQU4edW47/OMA4OXhYmhXJq3c5wX6zZz8ciQ9zB3k+yOCqvYRxIGMngqG6DqHntJ1kcwjOuVNalwAbBITzjlfL5yDfEYO2/z5bLUSFhUiFhUiFhIkGDdevOfe4NTs/PRobL4JCgwfp1mx/q7rZxF4W4HBUSJhK04aXHM1x76clNkc8Tm0OCgkQ/uCwO4RmHOwWHhjsFwVIhYVIhYSI843BRcGi4KMhK1hckJ9EHdShAGER2Eh3rgzgUIE6D6EXBmUTnHQqI4liOdDP39EHUb32/0wdRHI13+iBDfh4SJcvPQzJAgxo4FXPCmIMOCqtOvwwFYvltmtc2jJ5OiuBYltmbrGdJ9CDBGjSYnUl0xnEu46I4LcehQOhEY3X6W9/PRe0UonKI25C+V/Q9+/T7HI8K8Zijn2RxiNvFP8ghfK9u0vr4Nf4IeT3sxpvOFDlZKsJon1/3MjmKs4Lzu7zfsuuLFwoQRjfWana5kh7p+18fWRyFBwt1dw8F/TeWaM4/oQRPX5FnkSsAAAAASUVORK5CYII=" width="52" height="48" image-rendering="optimizeSpeed"/></svg></g>
+  <g class="cone"><svg x="644.0" y="40" width="28" height="32" viewBox="0 0 14 16"><image class="px" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAAzElEQVQokWNgwAGkZHT+M5AKQJr+r4v4j08zEzZNTw/Vgdl3En7gtBlDIxhcWMfw/dwZhmuXPoG5XDwSAXg1gm2bpIOiYJPRKwYBAZH1RNkIsg0dYLMVESBQ8OHLHzi+ducVGKP7FbsfcQAuJFtZUGTWR4IpNiSnfoMGEAODGAOGjdgCBR2gBxITMQGDzblMxNjGAAXItpIUOCDAwQbxGjhwQpfxMDx79gQqpUJAK0QdI4gAmQAyiRjw4xcDw4cPbwLBGmGaidEI0gSiAZelYXCdDa4mAAAAAElFTkSuQmCC" width="14" height="16" image-rendering="optimizeSpeed"/></svg></g>
+  <g class="player"><svg x="634.0" y="116" width="48" height="80" viewBox="0 0 24 40"><image class="px wheel" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAoCAYAAAC4h3lxAAAC90lEQVRYhe2Zv4sTQRTH3ywTOA4JkjKmOPwBEg4JIXUIFpZWViLLFSKW9weIhVhaBItDROVcDisRtLQIIfVxHCEsYjRY5MJV4QhyHKyovJlM2ITZnZndmeLEb5HdzO5+3r638+vNEFCoXNn8k3Z9Mh4QFcMln6jAR193AI7fSO+JRl3Y2LqgZcgVnyaCew2AyhNeeFKEaPpp6b5C6TYUmj04GgEMn9eg1ebPqRyxzSercAY+KfKCizMWBZXQGGrY2YNWu5zohAs+WYUjsHC5pQWW6cfhTOqEKz7VfVDUxQVo92emF7DNpyI662vpvojoMfjhDADm1UAiZCFTRAnPG/W6NX6jXod9AManOnBTVas32BGNCIfCsA8ANSv8MOwvgsTCzuFg1YDMIesBOjjgVUjHQLzRbdSK2gZ0AxQZ8OMB+je/QJSxi5MZkAUoLz+MBYgsDTBzeHmrxM5b/mN27AbzEVOhye503oPAUl/tkk9lN5YqmxC8fwvPdj5Cv/OB/VdpOh5ovYRtvoc/6Mml5v6icPC0x+C6QjhGR2h1JHbJ91aN4DAvhNGxMY1wyadJN7+7uQ2FRwH/kzDdzdMgbfG9pAt3O20lXEg0ShPZ4nupT2rAc+k4Pz/RAdP6aSpbfA/OuTw456JJF7CvjkZ6kHgfrStbfJrW8nGE1B1hTZ2wxfdkOWtW4TS4uz2RrvW44ntp/a7J/MZkLLDJp7bqtIls8in+qPLi4MWptNx/uK5MunUWDQJDfnzRgCX1qqQ7CaSTdAuH0uQb8uOLBlo5sWmETHPiwJBvnBNn+QJxqQLkZ/0CuqsS/79A1eEXmIwHxPbqHBpAuOiFsLHxXsjess3p2S/GZy/PNhk05+wmI6lYsHXJp3jy2r8DbsQdcMknq7smeRedROKNig9krvgkfhEN4WTp2tkD+L7XY2W/739JBXqvrrPjlXtNGK69VO7Q2OYTmRE8+jM+uFy9lb7R8O0zryZBkfckuntktvhEZUhXWXcp8/L/AvBdY90V4r/PAAAAAElFTkSuQmCC" width="48" height="40" image-rendering="optimizeSpeed"/></svg></g>
+</g>
+<rect class="frame" x="520.5" y="14.5" width="275" height="191" rx="10"/>
+</svg>

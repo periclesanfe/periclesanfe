@@ -4,6 +4,7 @@
 
 header   name, role and thesis, with a play-once reveal
 link-*   LinkedIn / email / ORCID buttons under the header
+game-*   playable game card linking to its latest release
 card-*   featured work, a 2x2 table in the README; each card has a small looping drawing
 repo-*   public repositories, linked from the README
 stack    one scrolling strip of chips per layer
@@ -12,6 +13,7 @@ All motion sits inside `prefers-reduced-motion: no-preference`, and the base sty
 finished frame, so viewers who asked for less motion get a complete, still picture.
 Icons: Simple Icons (CC0), fetched from jsDelivr at a pinned version.
 """
+import base64
 import re
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -283,6 +285,82 @@ def repo_card(t, name, desc, meta):
     return svg(400, H, f"{name}: {' '.join(desc)} ({', '.join(meta)})", t, "", "", "\n".join(body))
 
 
+# ---------------------------------------------------------------- playable game (wide card)
+
+GAME_RELEASE = "https://github.com/periclesanfe/jogo_de_carro/releases/latest"
+GAME_SPRITES = "https://raw.githubusercontent.com/periclesanfe/jogo_de_carro/v2.0.0/src/jogo_de_carro/assets/sprites/{}.png"
+SPRITES = {"car_yellow": (24, 40, 2), "van": (26, 48, 2), "truck": (28, 64, 2), "cone": (14, 16, 1)}  # frame w, h, frames
+
+
+def sprite_uri(name):
+    with urllib.request.urlopen(GAME_SPRITES.format(name), timeout=20) as r:
+        data = r.read()
+    if not data.startswith(b"\x89PNG"):
+        raise ValueError(f"{name} is not a PNG")
+    return name, "data:image/png;base64," + base64.b64encode(data).decode()
+
+
+def game_card(t, uris):
+    """Wide card for jogo_de_carro: text on the left, a tiny road on the right where the
+    game's own sprites (pinned to the v2.0.0 tag) dodge a cone in a 6 s loop."""
+    H, K = 220, 2  # card height, pixel scale for the sprites
+    px, py, pw, ph = 520, 14, 276, 192  # road panel
+    lanes = (577, 658, 739)
+
+    def sprite(name, cx, top, wheel=False):
+        w, h, n = SPRITES[name]
+        img = (f'<image class="px{" wheel" if wheel else ""}" href="{uris[name]}" width="{w * n}" height="{h}" '
+               'image-rendering="optimizeSpeed"/>')
+        return f'<svg x="{cx - w * K / 2}" y="{top}" width="{w * K}" height="{h * K}" viewBox="0 0 {w} {h}">{img}</svg>'
+
+    dashes = "".join(f'<rect x="{x - 2}" y="{y}" width="4" height="22" rx="1"/>'
+                     for x in (617.5, 698.5) for y in range(py - 40, py + ph + 40, 40))
+    body = f'''<rect class="card" x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="12"/>
+<text class="mono tag" x="24" y="36">PLAYABLE GAME</text><text class="mono meta" x="{24 + len("PLAYABLE GAME") * 7.8 + 4:.1f}" y="36">· v2.0.0</text>
+<text class="sans title" x="24" y="80">Jogo de Carro</text>
+<text class="sans desc" x="24" y="116">Pixel-art endless runner from a 2022 IFAL team</text>
+<text class="sans desc" x="24" y="139">project, rebuilt in 2026 on Python 3.14 + pygame-ce.</text>
+<rect class="cta" x="24" y="166" width="142" height="32" rx="16"/>
+<path class="cta-t" d="M42 175 l9 7 l-9 7 Z"/><text class="sans cta-t" x="58" y="187" font-size="15" font-weight="600">Play now</text>
+<text class="mono meta" x="182" y="187">Windows · macOS · Linux</text>
+<defs><clipPath id="road"><rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="10"/></clipPath></defs>
+<g clip-path="url(#road)">
+  <rect x="{px}" y="{py}" width="{pw}" height="{ph}" fill="#2a2c35"/>
+  <rect x="{px}" y="{py}" width="12" height="{ph}" fill="#3d6b3a"/><rect x="{px + pw - 12}" y="{py}" width="12" height="{ph}" fill="#3d6b3a"/>
+  <path d="M{px + 15} {py}V{py + ph}M{px + pw - 15} {py}V{py + ph}" stroke="#c9ccd6" stroke-width="2" opacity=".7"/>
+  <g class="dash" fill="#e8b93a" opacity=".85">{dashes}</g>
+  <g class="truck">{sprite("truck", lanes[0], -130, wheel=True)}</g>
+  <g class="van">{sprite("van", lanes[2], 30, wheel=True)}</g>
+  <g class="cone">{sprite("cone", lanes[1], 40)}</g>
+  <g class="player">{sprite("car_yellow", lanes[1], 116, wheel=True)}</g>
+</g>
+<rect class="frame" x="{px + .5}" y="{py + .5}" width="{pw - 1}" height="{ph - 1}" rx="10"/>'''
+    css = '''  .card { fill: var(--surface); stroke: var(--line); stroke-width: 1; }
+  .tag { font-size: 12px; letter-spacing: .6px; fill: var(--accent); font-weight: 600; }
+  .meta { font-size: 12px; letter-spacing: .6px; fill: var(--muted); }
+  .title { font-size: 28px; font-weight: 650; letter-spacing: -.5px; fill: var(--fg); }
+  .desc { font-size: 16px; fill: var(--muted); }
+  .cta { fill: var(--accent); } .cta-t { fill: var(--bg); }
+  .px { image-rendering: pixelated; }
+  .wheel { transform-box: fill-box; }  /* -50% = one frame of the sheet, not half the viewport */'''
+    lane_shift = lanes[0] - lanes[1]
+    anim = f'''    .dash {{ animation: dash .444s linear infinite; }}
+    @keyframes dash {{ to {{ transform: translateY(40px); }} }}
+    .wheel {{ animation: wheel .24s steps(1) infinite; }}
+    @keyframes wheel {{ 50% {{ transform: translateX(-50%); }} }}
+    .cone {{ animation: cone 6s linear infinite; }}
+    @keyframes cone {{ 0% {{ transform: translateY(-80px); }} 50%, 100% {{ transform: translateY(190px); }} }}
+    .van {{ animation: van 6s linear infinite; }}
+    @keyframes van {{ from {{ transform: translateY(-130px); }} to {{ transform: translateY(200px); }} }}
+    .truck {{ animation: truck 6s linear infinite; }}
+    @keyframes truck {{ 0%, 55% {{ transform: none; }} to {{ transform: translateY(360px); }} }}
+    .player {{ animation: player 6s cubic-bezier(.45, 0, .55, 1) infinite; }}
+    @keyframes player {{ 0%, 13% {{ transform: none; }} 20%, 46% {{ transform: translateX({lane_shift}px); }} 53%, 100% {{ transform: none; }} }}'''
+    label = ("Jogo de Carro, a playable pixel-art endless runner: a 2022 IFAL team project rebuilt in 2026 on "
+             "Python 3.14 and pygame-ce. Download version 2.0.0 for Windows, macOS or Linux.")
+    return svg(W, H, label, t, css, anim, body)
+
+
 # ---------------------------------------------------------------- stack strip
 
 ROWS = [  # (row label, [(chip, simple-icons slug or None)])
@@ -366,11 +444,12 @@ def main():
     with ThreadPoolExecutor(8) as ex:
         paths = dict(ex.map(icon_path, slugs))
         glyphs = list(ex.map(glyph, [url for _, url, _ in LINKS]))
+        uris = dict(ex.map(sprite_uri, SPRITES))
     OUT.mkdir(exist_ok=True)
     for old in OUT.glob("*.svg"):
         old.unlink()
     for theme, t in THEMES.items():
-        files = {"header": header(t), "stack": stack(t, paths)}
+        files = {"header": header(t), "stack": stack(t, paths), "game-jogo_de_carro": game_card(t, uris)}
         files.update({f"card-{c['id']}": card(t, c) for c in CARDS})
         files.update({f"repo-{name.lower()}": repo_card(t, name, *rest) for name, *rest in REPOS})
         files.update({f"link-{name}": link_button(t, i, name, *g, credit)

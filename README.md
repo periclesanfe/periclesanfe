@@ -42,6 +42,8 @@ I build products end to end: the client app, the API, the database and the infra
 
 ### Public projects
 
+<a href="https://github.com/periclesanfe/jogo_de_carro/releases/latest"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/game-jogo_de_carro-dark.svg"><img alt="Jogo de Carro: playable pixel-art endless runner, a 2022 IFAL team project rebuilt in 2026 on Python 3.14 and pygame-ce. Play now: download v2.0.0 for Windows, macOS or Linux." src="./assets/game-jogo_de_carro-light.svg" width="100%"></picture></a>
+
 <p>
 <a href="https://github.com/periclesanfe/material_estudos_ifal"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-material_estudos_ifal-dark.svg"><img alt="material_estudos_ifal: study platform for IFAL's Information Systems degree, with AI-generated quizzes (Gemini). TypeScript, 29 stars, live site." src="./assets/repo-material_estudos_ifal-light.svg" width="49%"></picture></a>
 <a href="https://github.com/periclesanfe/Pulmoseg"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-pulmoseg-dark.svg"><img alt="Pulmoseg: lung-nodule segmentation on CT scans, classical computer vision vs. the U-Net family (PyTorch)." src="./assets/repo-pulmoseg-light.svg" width="49%"></picture></a>
@@ -49,7 +51,7 @@ I build products end to end: the client app, the API, the database and the infra
 <a href="https://github.com/periclesanfe/test_scan_xlsx"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-test_scan_xlsx-dark.svg"><img alt="test_scan_xlsx: Flask app that builds printable exams and reads scanned answer sheets with OpenCV, with manual correction as a fallback." src="./assets/repo-test_scan_xlsx-light.svg" width="49%"></picture></a>
 </p>
 
-<samp>try it live: <a href="https://periclesanfe.github.io/material_estudos_ifal/">material_estudos_ifal ↗</a></samp>
+<samp>try it live: <a href="https://periclesanfe.github.io/material_estudos_ifal/">material_estudos_ifal ↗</a> · play: <a href="https://github.com/periclesanfe/jogo_de_carro/releases/latest">jogo_de_carro ↗</a></samp>
 
 ### Stack
 
